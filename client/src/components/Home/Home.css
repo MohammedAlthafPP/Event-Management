@@ -1,0 +1,333 @@
+.heroheadeing{
+    line-height: 1.8;
+    font-size: 5vmax;
+    font-weight: normal;
+    font-family: "Rochester", cursive;
+    color: #d291bc;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    width: 40vmax;
+    margin: auto;
+    text-align: center;
+    margin-top: 3vmax;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(240, 124, 182, 0.57)));
+}
+.banner {
+   
+    background-size:cover; 
+    background-repeat:no-repeat;
+    background-position:top center; 
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 2vmax;
+  }
+  
+  .banner > h1 {
+    font-family: "Rochester", cursive;
+    font-size: 8vw;
+    color: #ffff;
+    margin: 3vmax 1vmax;
+  }
+  
+  .banner > p {
+    font-size: 1vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #d291bc;
+    letter-spacing: 7px;
+    position: relative;
+    background: #fff;
+    padding: .5vmax 1.5vmax;
+    border-radius: 2px;
+  }
+  
+  .banner > a > button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 1vmax;
+    transform: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax;
+    font-family: 'Roboto';
+  }
+  
+  .banner > a > button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  .groomandbrid {
+    margin: 3vmax 0;
+  }
+.card{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    float: right;
+    
+}
+
+.card >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 2vmax 2vmax;
+    
+}
+.card >div > h2 {
+    font-size: 3vmax;
+    font-family: "Rochester", cursive;
+    color: #d291bc ;
+    text-align: right !important;
+}
+.card >div > p {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 1.6vmax;
+    line-height: 3vmax;
+    font-weight: 400;
+    color: #999999;
+    text-align: right;
+    padding-left: 2vmax;
+    
+}
+.card>div:last-child{
+    background-color: rgb(255, 127, 206);
+    
+}
+.card>div:last-child > img {
+    width:25vmax;
+    height: 30vmax;
+    border: 10px solid #d291bc ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* Second Card*/
+.card2{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    float: left;
+    
+}
+
+.card2 >div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 2vmax 2vmax;
+    
+}
+.card2 >div > img {
+    width:25vmax;
+    height: 30vmax;
+    border: 10px solid #d291bc ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card2 >div > p {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 1.6vmax;
+    line-height: 3vmax;
+    font-weight: 400;
+    color: #999999;
+    text-align: right;
+    
+}
+.card2>div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 2vmax 2vmax;
+}
+.card2>div:last-child > h2 {
+    font-size: 3vmax;
+    font-family: "Rochester", cursive;
+    color: #d291bc ;
+}
+.card2>div:last-child > p {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 1.6vmax;
+    line-height: 3vmax;
+    font-weight: 400;
+    color: #999999;
+    text-align: left;
+    padding-right: 2vmax;
+}
+
+
+.eventHeading {
+    font-size: 3vmax;
+    font-family: "Rochester", cursive;
+    color: #d291bc ;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 1vmax;
+    width: 40vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+    margin-top: 4vmax;
+}
+.events{
+    display: flex;
+    overflow: auto;
+    margin: 3vmax;
+}
+.events::-webkit-scrollbar {
+    display: none;
+  }
+.events {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+.eventCard {
+    flex: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.226);
+    border: 1px solid rgba(56, 56, 56, 0.116);
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+    padding: 3vmax;
+
+}
+.eventCard > img {
+    width: 6vmax;
+    height: 6vmax;
+    border-radius: 100%;
+
+}
+.eventCard > p {
+    color: rgba(0, 0, 0, 0.836);
+    font: 600 0.9vmax 'Roboto';
+    text-align: center;
+
+}
+.eventCardCommentt{
+    color: rgba(0, 0, 0, 0.445);
+    font: 300 0.8vmax cursive;
+}
+
+
+
+
+
+   @media screen and (max-width: 600px) {
+    .heroheadeing{
+        font-size: 6vmax;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        margin: 2vmax;
+    }
+    .card >div {
+        align-items: center;
+        grid-row: 2;
+        
+    }
+    .card >div > h2 {
+        font-size: 5vmax;
+    }
+    .card >div > p {
+        font-size: 3vmax;
+        text-align: center;
+        line-height: 5vmax;
+        padding: 2vmax;
+       
+    }
+    .card>div:last-child {
+        grid-row: 1;
+      
+        
+        
+    }
+    .card>div:last-child > img {
+        width: 100%;
+        height:60vh;
+        overflow: hidden;
+        
+      
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        margin: 2vmax;
+    }
+    .card2 >div {
+       grid-row: 1;
+    }
+    .card2 >div > img {
+        width: 100%;
+        height:60vh;
+        overflow: hidden;
+    }
+    .card2>div:last-child {
+        align-items: center;
+        grid-row: 2;
+    }
+    .card2>div:last-child > h2{
+        font-size: 5vmax;
+        text-align: center;
+        
+    }
+    .card2>div:last-child > p{
+        font-size: 3vmax;
+        text-align: center;
+        line-height: 5vmax;
+        padding: 2vmax;
+    }
+    .eventCard > p {
+        font: 600 3vw 'Roboto';
+    }
+    .eventCardCommentt {
+        font: 300 2vw cursive;
+        text-align: center;
+    }
+    .eventCard > img {
+        width: 8vmax;
+        height: 8vmax;
+    }
+    .eventHeading {
+        font-size: 5vmax;
+    }
+    .banner > h1 {
+        font-size: 10vw;
+    }
+    .banner > p {
+        font-size: 1.5vw;
+        padding: 2vmax 3vmax;
+    }
+   }

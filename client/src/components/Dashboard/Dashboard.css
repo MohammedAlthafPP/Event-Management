@@ -1,0 +1,38 @@
+.dashboard {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    position: absolute;
+    margin-top: 2vmax;
+}
+.dashboardContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: rgb(255, 255, 255);
+    padding: 3rem 0;
+}
+
+.dashboardContainer > h1{
+    color: rgba(0, 0, 0, 0.733);
+    font: 300 2rem 'Roboto';
+    margin: auto;
+    width: 50%;
+    padding: 1.5rem;
+    text-align: center;
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboardContainer {
+        border-left: none;
+
+    }
+  
+    
+}
